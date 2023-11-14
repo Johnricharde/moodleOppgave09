@@ -27,7 +27,7 @@ namespace moodleOppgave09
                     case 7:
                         return "sunday";
                     default:
-                        return "[Not a valid number]";
+                        return checkWhatDay();
                 }
             }
 
